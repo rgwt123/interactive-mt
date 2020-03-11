@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="Interactive NMT">
+    <title>交互式翻译</title>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/langtropy_query.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="js/main.css"></link>
+    </head>
+
+
+<body>
+<!--顶部部分-->
+<div id='top' >
+	<div id='top_theme' class='top_inline' >
+		<a><span id='theme'>交互式翻译</span></a>
+	</div>
+</div>
+<hr/>
+
+<!--中间主体部分-->
+<div>
+	<div class="same_margin_top">
+        <select id="src_select" class="select_frm" onChange="set_destlang()">
+        </select>
+        <select id='dest_select' class="select_frm">
+        </select>
+	</div>
+
+    <div class="origin_frm">
+        <textarea id="src" name="text" class="editarea">
+        </textarea>
+    </div>
+    
+    <div id="bottom" class="bottom_block">
+        <input type="button" name="go" id="go" class="blue_button" onclick="javascript:split_sentence()" value="分 句"/>
+        <input type="button" name="clear_btn" id="clear_btn" class="blue_button" onclick="javascript:fn_clear();" value="清  空"/>
+        <input type='button' name="update_table" id="update_table" class="blue_button" onclick="javascript:update_table();" value="更新词表"/>
+        <input type='button' name="upload_table" id="upload_table" class="blue_button" onclick="javascript:upload_table();" value="上传词表"/>
+        <input type="file" id="load_file" style="display: none" onchange="fileImport();">
+        <input type="checkbox" name="withtable" id="withtable" checked/>使用双语字典</input>
+    </div>
+</div>
+
+<!--交互式动态生成部分 Begin -->
+<div id="DynamicPart">
+    <div name="DisplayArea" class="DisplayArea" id='DisplayArea'></div>
+</div>
+
+<!--交互式动态生成部分 End -->
+
+</body>
+</html>

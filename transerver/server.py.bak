@@ -1,0 +1,62 @@
+from flask import Flask, request, Response
+from nltk.tokenize import sent_tokenize
+import json
+from translate import translate_onesentence
+from store import storeonesent2mysql
+
+app = Flask(__name__)
+ 
+@app.route('/api/split', methods=['POST'])
+def split_sentence():
+    if request.method == 'POST':
+        data = json.loads(request.get_data(as_text=True))
+        sourceLang = data['sourceLang']
+        targetLang = data['targetLang']
+        text = data['text'].strip()
+        result = {}
+        sents = sent_tokenize(text)
+        new_sents = []
+        for sent in sents:
+            new_sents.extend([subsent.strip() for subsent in sent.split('\n')])
+        result['sentences'] = new_sents
+        result['errorCode'] = 0
+        return Response(json.dumps(result), mimetype='application/javascript')
+
+@app.route('/api/itranslate', methods=['POST'])
+def itranslate():
+    if request.method == 'POST':
+        data = json.loads(request.get_data(as_text=True))
+        sourceLang = data['sourceLang']
+        targetLang = data['targetLang']
+        text = data['text']
+        prefix = data['prefix']
+        result = {}
+        result['errorCode'] = 0
+        
+        try:
+            res = translate_onesentence(text, prefix=prefix)
+        except Exception as e:
+            res = ""
+            result['errorCode'] = 1 
+
+        result['translation'] = res
+        return Response(json.dumps(result), mimetype='application/javascript')
+
+@app.route('/api/store_onesentence', methods=['POST'])
+def store_onesentence():
+    if request.method == 'POST':
+        data = json.loads(request.get_data(as_text=True))
+        sourceLang = data['sourceLang']
+        targetLang = data['targetLang']
+        sourceText = data['sourceText']
+        targetText = data['targetText']
+        result = {}
+        if len(sourceText)>0 and len(targetText)>0:
+            storeonesent2mysql(sourceText, targetText, sourceLang, targetLang)
+            result['errorCode'] = 0
+        else:
+            result['errorCode'] = 1
+        return Response(json.dumps(result), mimetype='application/javascript')
+        
+if __name__ == '__main__':
+    app.run(host="127.0.0.1", port=6431, threaded=True)

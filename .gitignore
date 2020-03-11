@@ -1,0 +1,10 @@
+.DS_Store
+*.swp
+*.pyc
+*.egg-info/
+.eggs/
+__pycache__/
+docker_images/
+mysql/
+all_models/
+data_pe2zh/

@@ -1,0 +1,135 @@
+#top {
+  height:50px;            /* 设置顶部部分的高度 */
+  line-height: 45px;	  /* 设置离顶部的距离 */
+  text-align:center;
+}
+
+#theme{
+  font-size:24pt;         /* 设置字体大小 */
+  color:#165BF4;          /* 设置字体颜色 */
+  font-weight:bold;       /* 设置粗体 */
+}
+
+#theme:hover{
+  border-radius:6px;     /* 设置背景边框为圆角 */
+  background: #AADFFD;
+}
+
+.same_margin_top{
+  margin-top:30px;     /* 设置中间两大主体部分离顶部的距离 */
+  text-align:center;
+}
+.select_frm{
+  display:inline;
+}
+
+select{ 
+   border:2px solid; 
+   border-color: #A2BAC0 #B8D0D6 #B8D0D6 #A2BAC0;	
+   width: 240px;        /* 设置 with 的宽度为 auto ，不是固定的宽度 */
+   height:40px;    
+   font-size:18px;
+   
+  appearance:none;     /* 关键：将默认的select选择框样式清除，设置特定的图标下拉框 */
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url("../img/select_down.png") no-repeat scroll right center transparent;
+  /*padding-right: 40px;   设置选择框中字的右边距；非框架时，为下拉小箭头留出一点位置，避免被文字覆盖*/
+  /*padding-left: 50px;    设置选择框中字的左边距*/
+  padding: 0 6%;       /*  前面的0表示上下，后面的值表示左右，这个值设置为1%都可以，但是不能是0,值越大，select就越长 */
+}
+
+.origin_frm{
+  text-align:center;   /* 使翻译输入框居中显示 */
+  margin-bottom:30px;
+}
+
+#src{  /* textarea 的共有属性  */
+    float: center;
+    resize: none;
+    overflow-y: scroll; 
+    overflow-x: hidden; 
+    border-radius:6px;
+    outline:none;
+    width:90%; 
+    height:300px;
+    font-size:24px;
+    color: #4d4d4f;
+
+    -moz-border-radius: 2px;
+    /*word-break: break-word;*/
+    hyphens: auto;
+    -moz-hyphens: auto;
+    transition: all 50ms ease-in;
+    -webkit-transition: all 50ms ease-in;
+    white-space: pre-wrap;
+}
+
+.bottom_areas{
+  resize: none;
+  overflow-y: scroll; 
+  overflow-x: hidden;
+  border-radius: 6px;
+  outline: none;
+  width: 40%;
+  height: 250px;
+  font-size:22px;
+  font-family:"Times New Roman",Georgia,Serif;
+}
+
+.itextarea{
+    resize: none;
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    border-radius: 6px;
+    outline: none;
+    width: 90%;
+    height: 150px;
+    font-size:20px;
+    font-family:"Times New Roman",Georgia,Serif;
+}
+
+.editarea:hover {
+    border: 1px solid #666;
+    box-shadow: inset 0 1px 2px #888;
+    -webkit-box-shadow: inset 0 1px 2px #888;
+    cursor: text;
+    color: #000;
+}
+
+.bottom_block {
+    text-align:center;    /* 使存放底部按钮部分居中显示 */
+    margin-top:20px;
+}
+
+.blue_button{
+    background: #165BF4;    /* 按钮的背景颜色 */
+    border-radius: 6px;
+    border: 1px solid #99D3F5;
+    color: #FFFFFF;         /* 按钮上字体的颜色 */
+    height:50px;
+    width:100px;
+    font-size:14pt; 
+    outline:none; 
+}
+.blue_button:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #FFFFFF;        /* 按钮上字体的颜色 */
+    text-decoration: none; /* outline设置轮廓的样式，样式是 none时，轮廓不会出现 */
+}
+
+#DisplayArea{
+    margin-top:20px;
+    text-align:center;
+    width: 100%;
+    overflow: visible;
+    white-space: nowrap;
+}
+
+.ibutton{
+    width: 30%;
+    height: 25px;
+    border-radius: 6px;
+    float: center;
+}

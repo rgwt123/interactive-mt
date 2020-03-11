@@ -1,0 +1,805 @@
+INFO - 01/10/20 06:17:50 - 0:00:00 - Read 30889 words from the vocabulary file.
+INFO - 01/10/20 06:17:50 - 0:00:00 - Read 39843 words from the vocabulary file.
+INFO - 01/10/20 06:17:50 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/10/20 06:18:03 - 0:00:14 - ============ Building transformer attention model - Decoder ...
+INFO - 01/10/20 06:18:11 - 0:00:21 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/10/20 06:18:40 - 0:00:50 - Reloading model from all_models/model_epoch17.pt ...
+INFO - 01/10/20 06:19:07 - 0:01:17 - Reloading encoder...
+INFO - 01/10/20 06:19:07 - 0:01:17 - Reloading decoder...
+INFO - 01/10/20 06:19:07 - 0:01:17 - num_updates: 50083 
+INFO - 01/10/20 06:19:07 - 0:01:17 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/10/20 06:20:44 - 0:02:54 - 127.0.0.1 - - [10/Jan/2020 06:20:44] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/10/20 07:28:44 - 1:10:54 - 127.0.0.1 - - [10/Jan/2020 07:28:44] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/11/20 05:13:48 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/11/20 05:13:48 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/11/20 05:13:48 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/11/20 05:13:48 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/11/20 05:13:50 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/11/20 05:13:55 - 0:00:08 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/11/20 05:13:56 - 0:00:09 - Reloading encoder...
+INFO - 01/11/20 05:13:56 - 0:00:09 - Reloading decoder...
+INFO - 01/11/20 05:13:56 - 0:00:09 - num_updates: 99172 
+INFO - 01/11/20 05:13:56 - 0:00:09 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/11/20 05:14:23 - 0:00:36 - 127.0.0.1 - - [11/Jan/2020 05:14:23] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/11/20 05:14:29 - 0:00:42 - 127.0.0.1 - - [11/Jan/2020 05:14:29] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 05:14:32 - 0:00:44 - 127.0.0.1 - - [11/Jan/2020 05:14:32] "POST /api/itranslate HTTP/1.0" 200 -
+DEBUG - 01/11/20 05:15:20 - 0:01:32 - Building prefix dict from the default dictionary ...
+DEBUG - 01/11/20 05:15:20 - 0:01:32 - Loading model from cache /tmp/jieba.cache
+DEBUG - 01/11/20 05:15:20 - 0:01:33 - Loading model cost 0.819 seconds.
+DEBUG - 01/11/20 05:15:20 - 0:01:33 - Prefix dict has been built successfully.
+INFO - 01/11/20 05:15:22 - 0:01:34 - 127.0.0.1 - - [11/Jan/2020 05:15:22] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 05:15:33 - 0:01:45 - 127.0.0.1 - - [11/Jan/2020 05:15:33] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 05:17:44 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/11/20 05:17:44 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/11/20 05:17:44 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/11/20 05:17:45 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/11/20 05:17:46 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/11/20 05:17:50 - 0:00:06 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/11/20 05:17:51 - 0:00:06 - Reloading encoder...
+INFO - 01/11/20 05:17:51 - 0:00:06 - Reloading decoder...
+INFO - 01/11/20 05:17:51 - 0:00:06 - num_updates: 99172 
+INFO - 01/11/20 05:17:51 - 0:00:07 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/11/20 05:18:12 - 0:00:28 - 127.0.0.1 - - [11/Jan/2020 05:18:12] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 05:18:27 - 0:00:43 - 127.0.0.1 - - [11/Jan/2020 05:18:27] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 05:18:57 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/11/20 05:18:57 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/11/20 05:18:57 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/11/20 05:18:58 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/11/20 05:18:59 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/11/20 05:19:05 - 0:00:08 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/11/20 05:19:05 - 0:00:09 - Reloading encoder...
+INFO - 01/11/20 05:19:05 - 0:00:09 - Reloading decoder...
+INFO - 01/11/20 05:19:05 - 0:00:09 - num_updates: 99172 
+INFO - 01/11/20 05:19:06 - 0:00:09 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/11/20 05:19:14 - 0:00:17 - 127.0.0.1 - - [11/Jan/2020 05:19:14] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 05:25:57 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/11/20 05:25:57 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/11/20 05:25:57 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/11/20 05:25:58 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/11/20 05:25:59 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/11/20 05:26:05 - 0:00:08 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/11/20 05:26:06 - 0:00:08 - Reloading encoder...
+INFO - 01/11/20 05:26:06 - 0:00:08 - Reloading decoder...
+INFO - 01/11/20 05:26:06 - 0:00:08 - num_updates: 99172 
+INFO - 01/11/20 05:26:06 - 0:00:09 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/11/20 05:26:13 - 0:00:16 - 127.0.0.1 - - [11/Jan/2020 05:26:13] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 05:26:34 - 0:00:37 - 127.0.0.1 - - [11/Jan/2020 05:26:34] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 05:26:43 - 0:00:45 - 127.0.0.1 - - [11/Jan/2020 05:26:43] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 05:26:46 - 0:00:49 - 127.0.0.1 - - [11/Jan/2020 05:26:46] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 05:32:41 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/11/20 05:32:41 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/11/20 05:32:41 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/11/20 05:32:41 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/11/20 05:32:43 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/11/20 05:32:48 - 0:00:08 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/11/20 05:32:49 - 0:00:08 - Reloading encoder...
+INFO - 01/11/20 05:32:49 - 0:00:08 - Reloading decoder...
+INFO - 01/11/20 05:32:49 - 0:00:08 - num_updates: 99172 
+INFO - 01/11/20 05:32:49 - 0:00:09 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/11/20 05:32:59 - 0:00:18 - 127.0.0.1 - - [11/Jan/2020 05:32:59] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 12:00:14 - 6:27:34 - 127.0.0.1 - - [11/Jan/2020 12:00:14] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/11/20 12:01:12 - 6:28:32 - 127.0.0.1 - - [11/Jan/2020 12:01:12] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 12:01:32 - 6:28:51 - 127.0.0.1 - - [11/Jan/2020 12:01:32] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 12:01:34 - 6:28:53 - 127.0.0.1 - - [11/Jan/2020 12:01:34] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/11/20 12:01:35 - 6:28:55 - 127.0.0.1 - - [11/Jan/2020 12:01:35] "POST /api/itranslate HTTP/1.0" 200 -
+DEBUG - 01/11/20 12:02:32 - 6:29:52 - Building prefix dict from the default dictionary ...
+DEBUG - 01/11/20 12:02:32 - 6:29:52 - Loading model from cache /tmp/jieba.cache
+DEBUG - 01/11/20 12:02:33 - 6:29:52 - Loading model cost 0.692 seconds.
+DEBUG - 01/11/20 12:02:33 - 6:29:52 - Prefix dict has been built successfully.
+INFO - 01/11/20 12:02:33 - 6:29:53 - 127.0.0.1 - - [11/Jan/2020 12:02:33] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:07:08 - 1 day, 9:34:27 - 127.0.0.1 - - [12/Jan/2020 15:07:08] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/12/20 15:09:08 - 1 day, 9:36:28 - 127.0.0.1 - - [12/Jan/2020 15:09:08] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:11:15 - 1 day, 9:38:34 - 127.0.0.1 - - [12/Jan/2020 15:11:15] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:12:55 - 1 day, 9:40:15 - 127.0.0.1 - - [12/Jan/2020 15:12:55] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:13:14 - 1 day, 9:40:33 - 127.0.0.1 - - [12/Jan/2020 15:13:14] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:13:21 - 1 day, 9:40:40 - 127.0.0.1 - - [12/Jan/2020 15:13:21] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:16:02 - 1 day, 9:43:21 - 127.0.0.1 - - [12/Jan/2020 15:16:02] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:17:03 - 1 day, 9:44:22 - 127.0.0.1 - - [12/Jan/2020 15:17:03] "POST /api/itranslate HTTP/1.0" 200 -
+ERROR - 01/12/20 15:17:49 - 1 day, 9:45:08 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:17:49 - 1 day, 9:45:08 - 127.0.0.1 - - [12/Jan/2020 15:17:49] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:17:55 - 1 day, 9:45:15 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:17:55 - 1 day, 9:45:15 - 127.0.0.1 - - [12/Jan/2020 15:17:55] "POST /api/store_onesentence HTTP/1.0" 500 -
+INFO - 01/12/20 15:42:36 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/12/20 15:42:36 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/12/20 15:42:36 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/12/20 15:42:37 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/12/20 15:42:38 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/12/20 15:42:42 - 0:00:06 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/12/20 15:42:43 - 0:00:06 - Reloading encoder...
+INFO - 01/12/20 15:42:43 - 0:00:06 - Reloading decoder...
+INFO - 01/12/20 15:42:43 - 0:00:06 - num_updates: 99172 
+INFO - 01/12/20 15:42:43 - 0:00:06 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+ERROR - 01/12/20 15:42:54 - 0:00:18 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:42:54 - 0:00:18 - 127.0.0.1 - - [12/Jan/2020 15:42:54] "POST /api/store_onesentence HTTP/1.0" 500 -
+INFO - 01/12/20 15:43:27 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/12/20 15:43:27 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/12/20 15:43:27 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/12/20 15:43:27 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/12/20 15:43:28 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/12/20 15:43:32 - 0:00:06 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/12/20 15:43:33 - 0:00:06 - Reloading encoder...
+INFO - 01/12/20 15:43:33 - 0:00:06 - Reloading decoder...
+INFO - 01/12/20 15:43:33 - 0:00:06 - num_updates: 99172 
+INFO - 01/12/20 15:43:33 - 0:00:06 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+ERROR - 01/12/20 15:43:37 - 0:00:10 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:43:37 - 0:00:10 - 127.0.0.1 - - [12/Jan/2020 15:43:37] "POST /api/store_onesentence HTTP/1.0" 500 -
+INFO - 01/12/20 15:44:10 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/12/20 15:44:10 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/12/20 15:44:10 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/12/20 15:44:11 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/12/20 15:44:12 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/12/20 15:44:16 - 0:00:06 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/12/20 15:44:16 - 0:00:06 - Reloading encoder...
+INFO - 01/12/20 15:44:16 - 0:00:06 - Reloading decoder...
+INFO - 01/12/20 15:44:16 - 0:00:06 - num_updates: 99172 
+INFO - 01/12/20 15:44:16 - 0:00:06 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+ERROR - 01/12/20 15:44:19 - 0:00:09 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:44:19 - 0:00:09 - 127.0.0.1 - - [12/Jan/2020 15:44:19] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:44:27 - 0:00:17 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:44:27 - 0:00:17 - 127.0.0.1 - - [12/Jan/2020 15:44:27] "POST /api/store_onesentence HTTP/1.0" 500 -
+INFO - 01/12/20 15:45:30 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/12/20 15:45:30 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/12/20 15:45:30 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/12/20 15:45:31 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/12/20 15:45:32 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/12/20 15:45:36 - 0:00:06 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/12/20 15:45:37 - 0:00:06 - Reloading encoder...
+INFO - 01/12/20 15:45:37 - 0:00:06 - Reloading decoder...
+INFO - 01/12/20 15:45:37 - 0:00:06 - num_updates: 99172 
+INFO - 01/12/20 15:45:37 - 0:00:06 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/12/20 15:45:46 - 0:00:16 - 127.0.0.1 - - [12/Jan/2020 15:45:46] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/12/20 15:46:04 - 0:00:34 - 127.0.0.1 - - [12/Jan/2020 15:46:04] "POST /api/store_onesentence HTTP/1.0" 200 -
+ERROR - 01/12/20 15:46:05 - 0:00:35 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:46:05 - 0:00:35 - 127.0.0.1 - - [12/Jan/2020 15:46:05] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:46:42 - 0:01:11 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:46:42 - 0:01:11 - 127.0.0.1 - - [12/Jan/2020 15:46:42] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:46:45 - 0:01:14 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:46:45 - 0:01:14 - 127.0.0.1 - - [12/Jan/2020 15:46:45] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:46:45 - 0:01:15 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:46:45 - 0:01:15 - 127.0.0.1 - - [12/Jan/2020 15:46:45] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:46:47 - 0:01:17 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:46:47 - 0:01:17 - 127.0.0.1 - - [12/Jan/2020 15:46:47] "POST /api/store_onesentence HTTP/1.0" 500 -
+INFO - 01/12/20 15:47:22 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/12/20 15:47:22 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/12/20 15:47:22 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/12/20 15:47:23 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/12/20 15:47:24 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/12/20 15:47:28 - 0:00:06 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/12/20 15:47:29 - 0:00:06 - Reloading encoder...
+INFO - 01/12/20 15:47:29 - 0:00:06 - Reloading decoder...
+INFO - 01/12/20 15:47:29 - 0:00:06 - num_updates: 99172 
+INFO - 01/12/20 15:47:29 - 0:00:06 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/12/20 15:47:34 - 0:00:11 - 127.0.0.1 - - [12/Jan/2020 15:47:34] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/12/20 15:47:36 - 0:00:14 - 127.0.0.1 - - [12/Jan/2020 15:47:36] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:47:43 - 0:00:20 - 127.0.0.1 - - [12/Jan/2020 15:47:43] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:47:44 - 0:00:22 - 127.0.0.1 - - [12/Jan/2020 15:47:44] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:47:46 - 0:00:23 - 127.0.0.1 - - [12/Jan/2020 15:47:46] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 15:47:48 - 0:00:26 - 127.0.0.1 - - [12/Jan/2020 15:47:48] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/12/20 15:47:52 - 0:00:29 - 127.0.0.1 - - [12/Jan/2020 15:47:52] "POST /api/store_onesentence HTTP/1.0" 200 -
+ERROR - 01/12/20 15:47:53 - 0:00:31 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:47:53 - 0:00:31 - 127.0.0.1 - - [12/Jan/2020 15:47:53] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:47:58 - 0:00:36 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:47:58 - 0:00:36 - 127.0.0.1 - - [12/Jan/2020 15:47:58] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:47:58 - 0:00:36 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:47:58 - 0:00:36 - 127.0.0.1 - - [12/Jan/2020 15:47:58] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:47:58 - 0:00:36 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:47:58 - 0:00:36 - 127.0.0.1 - - [12/Jan/2020 15:47:58] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:47:58 - 0:00:36 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:47:58 - 0:00:36 - 127.0.0.1 - - [12/Jan/2020 15:47:58] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:47:59 - 0:00:36 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:47:59 - 0:00:36 - 127.0.0.1 - - [12/Jan/2020 15:47:59] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:47:59 - 0:00:36 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:47:59 - 0:00:36 - 127.0.0.1 - - [12/Jan/2020 15:47:59] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 01/12/20 15:48:43 - 0:01:20 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:48:43 - 0:01:20 - 127.0.0.1 - - [12/Jan/2020 15:48:43] "POST /api/store_onesentence HTTP/1.0" 500 -
+INFO - 01/12/20 15:49:20 - 0:01:58 - 127.0.0.1 - - [12/Jan/2020 15:49:20] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/12/20 15:54:20 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/12/20 15:54:20 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/12/20 15:54:20 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/12/20 15:54:21 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/12/20 15:54:22 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/12/20 15:54:26 - 0:00:06 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/12/20 15:54:26 - 0:00:06 - Reloading encoder...
+INFO - 01/12/20 15:54:26 - 0:00:06 - Reloading decoder...
+INFO - 01/12/20 15:54:26 - 0:00:06 - num_updates: 99172 
+INFO - 01/12/20 15:54:26 - 0:00:06 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/12/20 15:54:34 - 0:00:14 - 127.0.0.1 - - [12/Jan/2020 15:54:34] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/12/20 15:54:36 - 0:00:16 - 127.0.0.1 - - [12/Jan/2020 15:54:36] "POST /api/itranslate HTTP/1.0" 200 -
+ERROR - 01/12/20 15:54:38 - 0:00:18 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 15:54:38 - 0:00:18 - 127.0.0.1 - - [12/Jan/2020 15:54:38] "POST /api/store_onesentence HTTP/1.0" 500 -
+INFO - 01/12/20 16:01:00 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/12/20 16:01:00 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/12/20 16:01:00 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/12/20 16:01:01 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/12/20 16:01:02 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/12/20 16:01:06 - 0:00:06 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/12/20 16:01:07 - 0:00:06 - Reloading encoder...
+INFO - 01/12/20 16:01:07 - 0:00:06 - Reloading decoder...
+INFO - 01/12/20 16:01:07 - 0:00:06 - num_updates: 99172 
+INFO - 01/12/20 16:01:07 - 0:00:06 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+ERROR - 01/12/20 16:01:12 - 0:00:12 - Exception on /api/store_onesentence [POST]
+INFO - 01/12/20 16:01:12 - 0:00:12 - 127.0.0.1 - - [12/Jan/2020 16:01:12] "POST /api/store_onesentence HTTP/1.0" 500 -
+INFO - 01/12/20 16:05:38 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/12/20 16:05:38 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/12/20 16:05:38 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/12/20 16:05:39 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/12/20 16:05:40 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/12/20 16:05:44 - 0:00:06 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/12/20 16:05:44 - 0:00:06 - Reloading encoder...
+INFO - 01/12/20 16:05:44 - 0:00:06 - Reloading decoder...
+INFO - 01/12/20 16:05:44 - 0:00:06 - num_updates: 99172 
+INFO - 01/12/20 16:05:44 - 0:00:06 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/12/20 16:05:49 - 0:00:11 - 127.0.0.1 - - [12/Jan/2020 16:05:49] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/12/20 16:05:52 - 0:00:14 - 127.0.0.1 - - [12/Jan/2020 16:05:52] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/12/20 16:05:57 - 0:00:19 - 127.0.0.1 - - [12/Jan/2020 16:05:57] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/12/20 16:06:07 - 0:00:29 - 127.0.0.1 - - [12/Jan/2020 16:06:07] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/12/20 16:06:25 - 0:00:46 - 127.0.0.1 - - [12/Jan/2020 16:06:25] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 16:06:25 - 0:00:47 - 127.0.0.1 - - [12/Jan/2020 16:06:25] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/12/20 16:06:27 - 0:00:49 - 127.0.0.1 - - [12/Jan/2020 16:06:27] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/12/20 16:06:28 - 0:00:50 - 127.0.0.1 - - [12/Jan/2020 16:06:28] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/12/20 16:11:21 - 0:00:00 - Read 31698 words from the vocabulary file.
+INFO - 01/12/20 16:11:21 - 0:00:00 - Read 42307 words from the vocabulary file.
+INFO - 01/12/20 16:11:21 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 01/12/20 16:11:22 - 0:00:01 - ============ Building transformer attention model - Decoder ...
+INFO - 01/12/20 16:11:23 - 0:00:02 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 01/12/20 16:11:27 - 0:00:06 - Reloading model from all_models/model_epoch14_v2.pt ...
+INFO - 01/12/20 16:11:27 - 0:00:06 - Reloading encoder...
+INFO - 01/12/20 16:11:27 - 0:00:06 - Reloading decoder...
+INFO - 01/12/20 16:11:27 - 0:00:06 - num_updates: 99172 
+INFO - 01/12/20 16:11:28 - 0:00:06 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 01/13/20 01:43:01 - 9:31:40 - 127.0.0.1 - - [13/Jan/2020 01:43:01] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/13/20 01:43:16 - 9:31:55 - 127.0.0.1 - - [13/Jan/2020 01:43:16] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 01:43:34 - 9:32:12 - 127.0.0.1 - - [13/Jan/2020 01:43:34] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 01:43:44 - 9:32:23 - 127.0.0.1 - - [13/Jan/2020 01:43:44] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 01:44:26 - 9:33:05 - 127.0.0.1 - - [13/Jan/2020 01:44:26] "POST /api/store_onesentence HTTP/1.0" 200 -
+DEBUG - 01/13/20 01:44:42 - 9:33:21 - Building prefix dict from the default dictionary ...
+DEBUG - 01/13/20 01:44:42 - 9:33:21 - Loading model from cache /tmp/jieba.cache
+DEBUG - 01/13/20 01:44:43 - 9:33:22 - Loading model cost 0.726 seconds.
+DEBUG - 01/13/20 01:44:43 - 9:33:22 - Prefix dict has been built successfully.
+INFO - 01/13/20 01:44:43 - 9:33:22 - 127.0.0.1 - - [13/Jan/2020 01:44:43] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 01:44:56 - 9:33:35 - 127.0.0.1 - - [13/Jan/2020 01:44:56] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 06:49:20 - 14:37:59 - 127.0.0.1 - - [13/Jan/2020 06:49:20] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/13/20 06:49:55 - 14:38:33 - 127.0.0.1 - - [13/Jan/2020 06:49:55] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 06:50:23 - 14:39:02 - 127.0.0.1 - - [13/Jan/2020 06:50:23] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 06:50:37 - 14:39:16 - 127.0.0.1 - - [13/Jan/2020 06:50:37] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 06:50:39 - 14:39:17 - 127.0.0.1 - - [13/Jan/2020 06:50:39] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 06:50:42 - 14:39:21 - 127.0.0.1 - - [13/Jan/2020 06:50:42] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 06:50:44 - 14:39:23 - 127.0.0.1 - - [13/Jan/2020 06:50:44] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 06:51:15 - 14:39:54 - 127.0.0.1 - - [13/Jan/2020 06:51:15] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 06:51:22 - 14:40:01 - 127.0.0.1 - - [13/Jan/2020 06:51:22] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/13/20 08:19:48 - 16:08:27 - 127.0.0.1 - - [13/Jan/2020 08:19:48] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/13/20 08:19:51 - 16:08:30 - 127.0.0.1 - - [13/Jan/2020 08:19:51] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 08:19:56 - 16:08:35 - 127.0.0.1 - - [13/Jan/2020 08:19:56] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 08:20:04 - 16:08:43 - 127.0.0.1 - - [13/Jan/2020 08:20:04] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 08:20:12 - 16:08:50 - 127.0.0.1 - - [13/Jan/2020 08:20:12] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 08:20:15 - 16:08:53 - 127.0.0.1 - - [13/Jan/2020 08:20:15] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 08:20:18 - 16:08:57 - 127.0.0.1 - - [13/Jan/2020 08:20:18] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 08:20:22 - 16:09:01 - 127.0.0.1 - - [13/Jan/2020 08:20:22] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 10:59:26 - 18:48:05 - 127.0.0.1 - - [13/Jan/2020 10:59:26] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/13/20 10:59:29 - 18:48:08 - 127.0.0.1 - - [13/Jan/2020 10:59:29] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 10:59:37 - 18:48:16 - 127.0.0.1 - - [13/Jan/2020 10:59:37] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:00:29 - 18:49:08 - 127.0.0.1 - - [13/Jan/2020 11:00:29] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:01:00 - 18:49:39 - 127.0.0.1 - - [13/Jan/2020 11:01:00] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:01:11 - 18:49:50 - 127.0.0.1 - - [13/Jan/2020 11:01:11] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/13/20 11:01:14 - 18:49:53 - 127.0.0.1 - - [13/Jan/2020 11:01:14] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:01:16 - 18:49:55 - 127.0.0.1 - - [13/Jan/2020 11:01:16] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:01:18 - 18:49:57 - 127.0.0.1 - - [13/Jan/2020 11:01:18] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:04:55 - 18:53:34 - 127.0.0.1 - - [13/Jan/2020 11:04:55] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/13/20 11:04:58 - 18:53:37 - 127.0.0.1 - - [13/Jan/2020 11:04:58] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:05:00 - 18:53:39 - 127.0.0.1 - - [13/Jan/2020 11:05:00] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:05:03 - 18:53:41 - 127.0.0.1 - - [13/Jan/2020 11:05:03] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:05:14 - 18:53:52 - 127.0.0.1 - - [13/Jan/2020 11:05:14] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:05:24 - 18:54:03 - 127.0.0.1 - - [13/Jan/2020 11:05:24] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/13/20 11:05:27 - 18:54:06 - 127.0.0.1 - - [13/Jan/2020 11:05:27] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/14/20 06:06:15 - 1 day, 13:54:54 - 127.0.0.1 - - [14/Jan/2020 06:06:15] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/14/20 06:06:23 - 1 day, 13:55:02 - 127.0.0.1 - - [14/Jan/2020 06:06:23] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:06:27 - 1 day, 13:55:05 - 127.0.0.1 - - [14/Jan/2020 06:06:27] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:06:30 - 1 day, 13:55:09 - 127.0.0.1 - - [14/Jan/2020 06:06:30] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:06:34 - 1 day, 13:55:13 - 127.0.0.1 - - [14/Jan/2020 06:06:34] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:06:47 - 1 day, 13:55:26 - 127.0.0.1 - - [14/Jan/2020 06:06:47] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:06:51 - 1 day, 13:55:30 - 127.0.0.1 - - [14/Jan/2020 06:06:51] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/14/20 06:06:54 - 1 day, 13:55:33 - 127.0.0.1 - - [14/Jan/2020 06:06:54] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/14/20 06:07:06 - 1 day, 13:55:44 - 127.0.0.1 - - [14/Jan/2020 06:07:06] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:07:09 - 1 day, 13:55:47 - 127.0.0.1 - - [14/Jan/2020 06:07:09] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/14/20 06:13:42 - 1 day, 14:02:21 - 127.0.0.1 - - [14/Jan/2020 06:13:42] "POST /api/split HTTP/1.0" 200 -
+INFO - 01/14/20 06:13:49 - 1 day, 14:02:28 - 127.0.0.1 - - [14/Jan/2020 06:13:49] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:13:51 - 1 day, 14:02:30 - 127.0.0.1 - - [14/Jan/2020 06:13:51] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:13:53 - 1 day, 14:02:32 - 127.0.0.1 - - [14/Jan/2020 06:13:53] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:13:56 - 1 day, 14:02:35 - 127.0.0.1 - - [14/Jan/2020 06:13:56] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:13:59 - 1 day, 14:02:38 - 127.0.0.1 - - [14/Jan/2020 06:13:59] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/14/20 06:14:11 - 1 day, 14:02:49 - 127.0.0.1 - - [14/Jan/2020 06:14:11] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:14:13 - 1 day, 14:02:52 - 127.0.0.1 - - [14/Jan/2020 06:14:13] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/14/20 06:14:16 - 1 day, 14:02:55 - 127.0.0.1 - - [14/Jan/2020 06:14:16] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 01/14/20 06:14:25 - 1 day, 14:03:03 - 127.0.0.1 - - [14/Jan/2020 06:14:25] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 01/14/20 06:14:27 - 1 day, 14:03:06 - 127.0.0.1 - - [14/Jan/2020 06:14:27] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 02/03/20 04:49:16 - 21 days, 12:37:55 - 127.0.0.1 - - [03/Feb/2020 04:49:16] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/03/20 04:49:18 - 21 days, 12:37:56 - 127.0.0.1 - - [03/Feb/2020 04:49:18] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/03/20 04:49:19 - 21 days, 12:37:58 - 127.0.0.1 - - [03/Feb/2020 04:49:19] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/03/20 08:19:58 - 21 days, 16:08:37 - 127.0.0.1 - - [03/Feb/2020 08:19:58] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/03/20 08:47:28 - 21 days, 16:36:07 - 127.0.0.1 - - [03/Feb/2020 08:47:28] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/03/20 08:47:33 - 21 days, 16:36:12 - 127.0.0.1 - - [03/Feb/2020 08:47:33] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/03/20 08:47:46 - 21 days, 16:36:24 - 127.0.0.1 - - [03/Feb/2020 08:47:46] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/03/20 08:48:01 - 21 days, 16:36:40 - 127.0.0.1 - - [03/Feb/2020 08:48:01] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/03/20 09:04:38 - 21 days, 16:53:17 - 127.0.0.1 - - [03/Feb/2020 09:04:38] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/04/20 07:22:42 - 22 days, 15:11:21 - 127.0.0.1 - - [04/Feb/2020 07:22:42] "POST /api/itranslate HTTP/1.0" 200 -
+ERROR - 02/04/20 07:22:46 - 22 days, 15:11:25 - Exception on /api/store_onesentence [POST]
+INFO - 02/04/20 07:22:46 - 22 days, 15:11:25 - 127.0.0.1 - - [04/Feb/2020 07:22:46] "POST /api/store_onesentence HTTP/1.0" 500 -
+ERROR - 02/04/20 07:22:46 - 22 days, 15:11:25 - Exception on /api/store_onesentence [POST]
+INFO - 02/04/20 07:22:46 - 22 days, 15:11:25 - 127.0.0.1 - - [04/Feb/2020 07:22:46] "POST /api/store_onesentence HTTP/1.0" 500 -
+INFO - 02/04/20 07:25:02 - 22 days, 15:13:40 - 127.0.0.1 - - [04/Feb/2020 07:25:02] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/04/20 07:25:04 - 22 days, 15:13:43 - 127.0.0.1 - - [04/Feb/2020 07:25:04] "POST /api/itranslate HTTP/1.0" 200 -
+ERROR - 02/04/20 07:25:05 - 22 days, 15:13:44 - Exception on /api/store_onesentence [POST]
+INFO - 02/04/20 07:25:05 - 22 days, 15:13:44 - 127.0.0.1 - - [04/Feb/2020 07:25:05] "POST /api/store_onesentence HTTP/1.0" 500 -
+INFO - 02/04/20 07:27:39 - 22 days, 15:16:18 - 127.0.0.1 - - [04/Feb/2020 07:27:39] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/04/20 07:27:40 - 22 days, 15:16:19 - 127.0.0.1 - - [04/Feb/2020 07:27:40] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 02/09/20 15:02:01 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/09/20 15:02:01 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/09/20 15:02:01 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/09/20 15:02:04 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/09/20 15:02:06 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/09/20 15:02:12 - 0:00:12 - Reloading model from all_models/pe2zh_model_epoch5_update290000.pt ...
+INFO - 02/09/20 15:02:13 - 0:00:12 - Reloading encoder...
+INFO - 02/09/20 15:02:13 - 0:00:12 - Reloading decoder...
+INFO - 02/09/20 15:02:13 - 0:00:12 - num_updates: 290000 
+INFO - 02/09/20 15:04:13 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/09/20 15:04:14 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/09/20 15:04:14 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/09/20 15:04:16 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/09/20 15:04:19 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/09/20 15:04:23 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch5_update290000.pt ...
+INFO - 02/09/20 15:04:24 - 0:00:10 - Reloading encoder...
+INFO - 02/09/20 15:04:24 - 0:00:10 - Reloading decoder...
+INFO - 02/09/20 15:04:24 - 0:00:10 - num_updates: 290000 
+INFO - 02/09/20 15:04:24 - 0:00:10 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/09/20 15:05:52 - 0:01:38 - 127.0.0.1 - - [09/Feb/2020 15:05:52] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/09/20 15:05:55 - 0:01:42 - 127.0.0.1 - - [09/Feb/2020 15:05:55] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/09/20 15:06:01 - 0:01:48 - 127.0.0.1 - - [09/Feb/2020 15:06:01] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/09/20 15:15:42 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/09/20 15:15:42 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/09/20 15:15:42 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/09/20 15:15:44 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/09/20 15:15:46 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/09/20 15:15:51 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch5_update290000.pt ...
+INFO - 02/09/20 15:15:52 - 0:00:10 - Reloading encoder...
+INFO - 02/09/20 15:15:52 - 0:00:10 - Reloading decoder...
+INFO - 02/09/20 15:15:52 - 0:00:10 - num_updates: 290000 
+INFO - 02/09/20 15:15:52 - 0:00:10 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/09/20 15:16:09 - 0:00:28 - 127.0.0.1 - - [09/Feb/2020 15:16:09] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/09/20 15:16:13 - 0:00:32 - 127.0.0.1 - - [09/Feb/2020 15:16:13] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/09/20 15:16:16 - 0:00:34 - 127.0.0.1 - - [09/Feb/2020 15:16:16] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/09/20 15:16:19 - 0:00:38 - 127.0.0.1 - - [09/Feb/2020 15:16:19] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/09/20 15:16:22 - 0:00:40 - 127.0.0.1 - - [09/Feb/2020 15:16:22] "POST /api/itranslate HTTP/1.0" 200 -
+DEBUG - 02/09/20 15:16:32 - 0:00:50 - Building prefix dict from the default dictionary ...
+DEBUG - 02/09/20 15:16:32 - 0:00:50 - Loading model from cache /tmp/jieba.cache
+DEBUG - 02/09/20 15:16:33 - 0:00:52 - Loading model cost 1.237 seconds.
+DEBUG - 02/09/20 15:16:33 - 0:00:52 - Prefix dict has been built successfully.
+INFO - 02/09/20 15:16:34 - 0:00:52 - 127.0.0.1 - - [09/Feb/2020 15:16:34] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/09/20 15:16:53 - 0:01:11 - 127.0.0.1 - - [09/Feb/2020 15:16:53] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/10/20 14:03:18 - 22:47:37 - 127.0.0.1 - - [10/Feb/2020 14:03:18] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/10/20 14:03:22 - 22:47:40 - 127.0.0.1 - - [10/Feb/2020 14:03:22] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/10/20 14:03:28 - 22:47:47 - 127.0.0.1 - - [10/Feb/2020 14:03:28] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/10/20 14:03:30 - 22:47:49 - 127.0.0.1 - - [10/Feb/2020 14:03:30] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 02/14/20 07:37:39 - 4 days, 16:21:57 - 127.0.0.1 - - [14/Feb/2020 07:37:39] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/14/20 07:37:41 - 4 days, 16:22:00 - 127.0.0.1 - - [14/Feb/2020 07:37:41] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:37:47 - 4 days, 16:22:05 - 127.0.0.1 - - [14/Feb/2020 07:37:47] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/14/20 07:37:49 - 4 days, 16:22:07 - 127.0.0.1 - - [14/Feb/2020 07:37:49] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:37:53 - 4 days, 16:22:12 - 127.0.0.1 - - [14/Feb/2020 07:37:53] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 02/14/20 07:42:44 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/14/20 07:42:44 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/14/20 07:42:44 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/14/20 07:42:46 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/14/20 07:42:48 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/14/20 07:42:54 - 0:00:11 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/14/20 07:42:55 - 0:00:12 - Reloading encoder...
+INFO - 02/14/20 07:42:55 - 0:00:12 - Reloading decoder...
+INFO - 02/14/20 07:42:55 - 0:00:12 - num_updates: 210000 
+INFO - 02/14/20 07:42:56 - 0:00:12 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/14/20 07:43:21 - 0:00:37 - 127.0.0.1 - - [14/Feb/2020 07:43:21] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/14/20 07:43:25 - 0:00:41 - 127.0.0.1 - - [14/Feb/2020 07:43:25] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:43:31 - 0:00:47 - 127.0.0.1 - - [14/Feb/2020 07:43:31] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:43:41 - 0:00:57 - 127.0.0.1 - - [14/Feb/2020 07:43:41] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:43:45 - 0:01:01 - 127.0.0.1 - - [14/Feb/2020 07:43:45] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:43:53 - 0:01:09 - 127.0.0.1 - - [14/Feb/2020 07:43:53] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:43:56 - 0:01:13 - 127.0.0.1 - - [14/Feb/2020 07:43:56] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:45:02 - 0:02:18 - 127.0.0.1 - - [14/Feb/2020 07:45:02] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/14/20 07:45:09 - 0:02:25 - 127.0.0.1 - - [14/Feb/2020 07:45:09] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:45:12 - 0:02:28 - 127.0.0.1 - - [14/Feb/2020 07:45:12] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:45:15 - 0:02:31 - 127.0.0.1 - - [14/Feb/2020 07:45:15] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:45:18 - 0:02:35 - 127.0.0.1 - - [14/Feb/2020 07:45:18] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:45:21 - 0:02:37 - 127.0.0.1 - - [14/Feb/2020 07:45:21] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:45:23 - 0:02:39 - 127.0.0.1 - - [14/Feb/2020 07:45:23] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:45:46 - 0:03:02 - 127.0.0.1 - - [14/Feb/2020 07:45:46] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:45:49 - 0:03:05 - 127.0.0.1 - - [14/Feb/2020 07:45:49] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:46:25 - 0:03:41 - 127.0.0.1 - - [14/Feb/2020 07:46:25] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:46:31 - 0:03:47 - 127.0.0.1 - - [14/Feb/2020 07:46:31] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:46:41 - 0:03:58 - 127.0.0.1 - - [14/Feb/2020 07:46:41] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:46:54 - 0:04:10 - 127.0.0.1 - - [14/Feb/2020 07:46:54] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:46:57 - 0:04:14 - 127.0.0.1 - - [14/Feb/2020 07:46:57] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:47:00 - 0:04:17 - 127.0.0.1 - - [14/Feb/2020 07:47:00] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:47:02 - 0:04:19 - 127.0.0.1 - - [14/Feb/2020 07:47:02] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:47:05 - 0:04:21 - 127.0.0.1 - - [14/Feb/2020 07:47:05] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:50:57 - 0:08:13 - 127.0.0.1 - - [14/Feb/2020 07:50:57] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:50:58 - 0:08:15 - 127.0.0.1 - - [14/Feb/2020 07:50:58] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:01 - 0:08:18 - 127.0.0.1 - - [14/Feb/2020 07:51:01] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:04 - 0:08:20 - 127.0.0.1 - - [14/Feb/2020 07:51:04] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:06 - 0:08:22 - 127.0.0.1 - - [14/Feb/2020 07:51:06] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:10 - 0:08:26 - 127.0.0.1 - - [14/Feb/2020 07:51:10] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:11 - 0:08:28 - 127.0.0.1 - - [14/Feb/2020 07:51:11] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:13 - 0:08:30 - 127.0.0.1 - - [14/Feb/2020 07:51:13] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:16 - 0:08:33 - 127.0.0.1 - - [14/Feb/2020 07:51:16] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:19 - 0:08:35 - 127.0.0.1 - - [14/Feb/2020 07:51:19] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:21 - 0:08:38 - 127.0.0.1 - - [14/Feb/2020 07:51:21] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:25 - 0:08:41 - 127.0.0.1 - - [14/Feb/2020 07:51:25] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:31 - 0:08:48 - 127.0.0.1 - - [14/Feb/2020 07:51:31] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:35 - 0:08:51 - 127.0.0.1 - - [14/Feb/2020 07:51:35] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:38 - 0:08:55 - 127.0.0.1 - - [14/Feb/2020 07:51:38] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:41 - 0:08:58 - 127.0.0.1 - - [14/Feb/2020 07:51:41] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:43 - 0:08:59 - 127.0.0.1 - - [14/Feb/2020 07:51:43] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:45 - 0:09:02 - 127.0.0.1 - - [14/Feb/2020 07:51:45] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:49 - 0:09:05 - 127.0.0.1 - - [14/Feb/2020 07:51:49] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 07:51:51 - 0:09:07 - 127.0.0.1 - - [14/Feb/2020 07:51:51] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 08:06:20 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/14/20 08:06:20 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/14/20 08:06:20 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/14/20 08:06:23 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/14/20 08:06:25 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/14/20 08:06:30 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/14/20 08:06:31 - 0:00:11 - Reloading encoder...
+INFO - 02/14/20 08:06:31 - 0:00:11 - Reloading decoder...
+INFO - 02/14/20 08:06:31 - 0:00:11 - num_updates: 210000 
+INFO - 02/14/20 08:06:31 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+ERROR - 02/14/20 08:06:40 - 0:00:20 - Exception on /api/split [POST]
+INFO - 02/14/20 08:06:40 - 0:00:20 - 127.0.0.1 - - [14/Feb/2020 08:06:40] "POST /api/split HTTP/1.0" 500 -
+ERROR - 02/14/20 08:07:10 - 0:00:50 - Exception on /api/split [POST]
+INFO - 02/14/20 08:07:10 - 0:00:50 - 127.0.0.1 - - [14/Feb/2020 08:07:10] "POST /api/split HTTP/1.0" 500 -
+INFO - 02/14/20 08:09:00 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/14/20 08:09:00 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/14/20 08:09:00 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/14/20 08:09:02 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/14/20 08:09:04 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/14/20 08:09:10 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/14/20 08:09:11 - 0:00:11 - Reloading encoder...
+INFO - 02/14/20 08:09:11 - 0:00:11 - Reloading decoder...
+INFO - 02/14/20 08:09:11 - 0:00:11 - num_updates: 210000 
+INFO - 02/14/20 08:09:11 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/14/20 08:09:19 - 0:00:20 - 127.0.0.1 - - [14/Feb/2020 08:09:19] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/14/20 08:10:49 - 0:01:50 - 127.0.0.1 - - [14/Feb/2020 08:10:49] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 08:10:51 - 0:01:51 - 127.0.0.1 - - [14/Feb/2020 08:10:51] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 08:11:01 - 0:02:02 - 127.0.0.1 - - [14/Feb/2020 08:11:01] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 08:11:06 - 0:02:07 - 127.0.0.1 - - [14/Feb/2020 08:11:06] "POST /api/itranslate HTTP/1.0" 200 -
+DEBUG - 02/14/20 08:11:25 - 0:02:26 - Building prefix dict from the default dictionary ...
+DEBUG - 02/14/20 08:11:25 - 0:02:26 - Loading model from cache /tmp/jieba.cache
+DEBUG - 02/14/20 08:11:26 - 0:02:27 - Loading model cost 1.214 seconds.
+DEBUG - 02/14/20 08:11:26 - 0:02:27 - Prefix dict has been built successfully.
+INFO - 02/14/20 08:11:27 - 0:02:27 - 127.0.0.1 - - [14/Feb/2020 08:11:27] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 08:11:32 - 0:02:32 - 127.0.0.1 - - [14/Feb/2020 08:11:32] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 08:11:43 - 0:02:44 - 127.0.0.1 - - [14/Feb/2020 08:11:43] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/14/20 08:13:22 - 0:04:22 - 127.0.0.1 - - [14/Feb/2020 08:13:22] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:14:29 - 4 days, 2:05:30 - 127.0.0.1 - - [18/Feb/2020 10:14:29] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 10:15:28 - 4 days, 2:06:28 - 127.0.0.1 - - [18/Feb/2020 10:15:28] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 10:16:21 - 4 days, 2:07:21 - 127.0.0.1 - - [18/Feb/2020 10:16:21] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 10:16:34 - 4 days, 2:07:35 - 127.0.0.1 - - [18/Feb/2020 10:16:34] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 10:21:01 - 4 days, 2:12:01 - 127.0.0.1 - - [18/Feb/2020 10:21:01] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 10:21:02 - 4 days, 2:12:03 - 127.0.0.1 - - [18/Feb/2020 10:21:02] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:23:05 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/18/20 10:23:05 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/18/20 10:23:05 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/18/20 10:23:07 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/18/20 10:23:10 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/18/20 10:23:14 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/18/20 10:23:15 - 0:00:11 - Reloading encoder...
+INFO - 02/18/20 10:23:15 - 0:00:11 - Reloading decoder...
+INFO - 02/18/20 10:23:15 - 0:00:11 - num_updates: 210000 
+INFO - 02/18/20 10:23:16 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/18/20 10:23:25 - 0:00:20 - 127.0.0.1 - - [18/Feb/2020 10:23:25] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 10:23:33 - 0:00:28 - 127.0.0.1 - - [18/Feb/2020 10:23:33] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:23:48 - 0:00:43 - 127.0.0.1 - - [18/Feb/2020 10:23:48] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:24:34 - 0:01:29 - 127.0.0.1 - - [18/Feb/2020 10:24:34] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:24:50 - 0:01:45 - 127.0.0.1 - - [18/Feb/2020 10:24:50] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:25:23 - 0:02:19 - 127.0.0.1 - - [18/Feb/2020 10:25:23] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:30:27 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/18/20 10:30:27 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/18/20 10:30:27 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/18/20 10:30:30 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/18/20 10:30:32 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/18/20 10:30:37 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/18/20 10:30:38 - 0:00:11 - Reloading encoder...
+INFO - 02/18/20 10:30:38 - 0:00:11 - Reloading decoder...
+INFO - 02/18/20 10:30:38 - 0:00:11 - num_updates: 210000 
+INFO - 02/18/20 10:30:38 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/18/20 10:35:59 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/18/20 10:35:59 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/18/20 10:35:59 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/18/20 10:36:01 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/18/20 10:36:03 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/18/20 10:36:08 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/18/20 10:36:09 - 0:00:11 - Reloading encoder...
+INFO - 02/18/20 10:36:09 - 0:00:11 - Reloading decoder...
+INFO - 02/18/20 10:36:09 - 0:00:11 - num_updates: 210000 
+INFO - 02/18/20 10:36:09 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/18/20 10:38:09 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/18/20 10:38:09 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/18/20 10:38:09 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/18/20 10:38:12 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/18/20 10:38:14 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/18/20 10:38:19 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/18/20 10:38:20 - 0:00:11 - Reloading encoder...
+INFO - 02/18/20 10:38:20 - 0:00:11 - Reloading decoder...
+INFO - 02/18/20 10:38:20 - 0:00:11 - num_updates: 210000 
+INFO - 02/18/20 10:38:20 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/18/20 10:42:00 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/18/20 10:42:00 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/18/20 10:42:00 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/18/20 10:42:03 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/18/20 10:42:05 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/18/20 10:42:10 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/18/20 10:42:11 - 0:00:11 - Reloading encoder...
+INFO - 02/18/20 10:42:11 - 0:00:11 - Reloading decoder...
+INFO - 02/18/20 10:42:11 - 0:00:11 - num_updates: 210000 
+INFO - 02/18/20 10:42:11 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/18/20 10:42:14 - 0:00:14 - 127.0.0.1 - - [18/Feb/2020 10:42:14] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 10:42:25 - 0:00:24 - 127.0.0.1 - - [18/Feb/2020 10:42:25] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 10:42:26 - 0:00:26 - 127.0.0.1 - - [18/Feb/2020 10:42:26] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:43:44 - 0:01:44 - 127.0.0.1 - - [18/Feb/2020 10:43:44] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:45:02 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/18/20 10:45:02 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/18/20 10:45:02 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/18/20 10:45:05 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/18/20 10:45:07 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/18/20 10:45:12 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/18/20 10:45:13 - 0:00:11 - Reloading encoder...
+INFO - 02/18/20 10:45:13 - 0:00:11 - Reloading decoder...
+INFO - 02/18/20 10:45:13 - 0:00:11 - num_updates: 210000 
+INFO - 02/18/20 10:45:13 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/18/20 10:45:23 - 0:00:21 - 127.0.0.1 - - [18/Feb/2020 10:45:23] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 10:45:25 - 0:00:22 - 127.0.0.1 - - [18/Feb/2020 10:45:25] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:45:45 - 0:00:42 - 127.0.0.1 - - [18/Feb/2020 10:45:45] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 10:45:46 - 0:00:44 - 127.0.0.1 - - [18/Feb/2020 10:45:46] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 10:46:00 - 0:00:58 - 127.0.0.1 - - [18/Feb/2020 10:46:00] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 10:46:02 - 0:01:00 - 127.0.0.1 - - [18/Feb/2020 10:46:02] "POST /api/itranslate HTTP/1.0" 200 -
+DEBUG - 02/18/20 10:46:29 - 0:01:27 - Building prefix dict from the default dictionary ...
+DEBUG - 02/18/20 10:46:29 - 0:01:27 - Loading model from cache /tmp/jieba.cache
+DEBUG - 02/18/20 10:46:30 - 0:01:28 - Loading model cost 1.139 seconds.
+DEBUG - 02/18/20 10:46:30 - 0:01:28 - Prefix dict has been built successfully.
+INFO - 02/18/20 10:46:31 - 0:01:28 - 127.0.0.1 - - [18/Feb/2020 10:46:31] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:02:36 - 0:17:33 - 127.0.0.1 - - [18/Feb/2020 11:02:36] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 11:02:39 - 0:17:37 - 127.0.0.1 - - [18/Feb/2020 11:02:39] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:02:41 - 0:17:38 - 127.0.0.1 - - [18/Feb/2020 11:02:41] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:02:44 - 0:17:42 - 127.0.0.1 - - [18/Feb/2020 11:02:44] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:04:16 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/18/20 11:04:16 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/18/20 11:04:16 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/18/20 11:04:19 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/18/20 11:04:21 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/18/20 11:04:26 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/18/20 11:04:27 - 0:00:11 - Reloading encoder...
+INFO - 02/18/20 11:04:27 - 0:00:11 - Reloading decoder...
+INFO - 02/18/20 11:04:27 - 0:00:11 - num_updates: 210000 
+INFO - 02/18/20 11:04:27 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+DEBUG - 02/18/20 11:04:33 - 0:00:16 - Building prefix dict from the default dictionary ...
+DEBUG - 02/18/20 11:04:33 - 0:00:16 - Loading model from cache /tmp/jieba.cache
+DEBUG - 02/18/20 11:04:34 - 0:00:18 - Loading model cost 1.156 seconds.
+DEBUG - 02/18/20 11:04:34 - 0:00:18 - Prefix dict has been built successfully.
+INFO - 02/18/20 11:04:34 - 0:00:18 - 127.0.0.1 - - [18/Feb/2020 11:04:34] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:04:35 - 0:00:19 - 127.0.0.1 - - [18/Feb/2020 11:04:35] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:05:09 - 0:00:53 - 127.0.0.1 - - [18/Feb/2020 11:05:09] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:06:01 - 0:01:45 - 127.0.0.1 - - [18/Feb/2020 11:06:01] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:06:53 - 0:02:37 - 127.0.0.1 - - [18/Feb/2020 11:06:53] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 11:06:56 - 0:02:40 - 127.0.0.1 - - [18/Feb/2020 11:06:56] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:06:57 - 0:02:41 - 127.0.0.1 - - [18/Feb/2020 11:06:57] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:06:58 - 0:02:42 - 127.0.0.1 - - [18/Feb/2020 11:06:58] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:07:23 - 0:03:07 - 127.0.0.1 - - [18/Feb/2020 11:07:23] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:07:45 - 0:03:29 - 127.0.0.1 - - [18/Feb/2020 11:07:45] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:07:45 - 0:03:29 - 127.0.0.1 - - [18/Feb/2020 11:07:45] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:07:45 - 0:03:29 - 127.0.0.1 - - [18/Feb/2020 11:07:45] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:07:45 - 0:03:29 - 127.0.0.1 - - [18/Feb/2020 11:07:45] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:07:46 - 0:03:29 - 127.0.0.1 - - [18/Feb/2020 11:07:46] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:07:46 - 0:03:30 - 127.0.0.1 - - [18/Feb/2020 11:07:46] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:08:48 - 0:04:32 - 127.0.0.1 - - [18/Feb/2020 11:08:48] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:09:22 - 0:05:06 - 127.0.0.1 - - [18/Feb/2020 11:09:22] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:11:58 - 0:07:42 - 127.0.0.1 - - [18/Feb/2020 11:11:58] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:15:46 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/18/20 11:15:46 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/18/20 11:15:46 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/18/20 11:15:49 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/18/20 11:15:51 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/18/20 11:15:56 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/18/20 11:15:57 - 0:00:11 - Reloading encoder...
+INFO - 02/18/20 11:15:57 - 0:00:11 - Reloading decoder...
+INFO - 02/18/20 11:15:57 - 0:00:11 - num_updates: 210000 
+INFO - 02/18/20 11:15:57 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/18/20 11:16:20 - 0:00:33 - 127.0.0.1 - - [18/Feb/2020 11:16:20] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:16:25 - 0:00:38 - 127.0.0.1 - - [18/Feb/2020 11:16:25] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:17:00 - 0:01:14 - 127.0.0.1 - - [18/Feb/2020 11:17:00] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:17:42 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/18/20 11:17:42 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/18/20 11:17:42 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/18/20 11:17:45 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/18/20 11:17:47 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/18/20 11:17:52 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/18/20 11:17:53 - 0:00:11 - Reloading encoder...
+INFO - 02/18/20 11:17:53 - 0:00:11 - Reloading decoder...
+INFO - 02/18/20 11:17:53 - 0:00:11 - num_updates: 210000 
+INFO - 02/18/20 11:17:53 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/18/20 11:17:59 - 0:00:17 - 127.0.0.1 - - [18/Feb/2020 11:17:59] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:18:24 - 0:00:43 - 127.0.0.1 - - [18/Feb/2020 11:18:24] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:18:38 - 0:00:56 - 127.0.0.1 - - [18/Feb/2020 11:18:38] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 11:18:42 - 0:01:00 - 127.0.0.1 - - [18/Feb/2020 11:18:42] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:18:46 - 0:01:04 - 127.0.0.1 - - [18/Feb/2020 11:18:46] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:18:47 - 0:01:05 - 127.0.0.1 - - [18/Feb/2020 11:18:47] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:22:44 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/18/20 11:22:44 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/18/20 11:22:44 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/18/20 11:22:47 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/18/20 11:22:49 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/18/20 11:22:54 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/18/20 11:22:55 - 0:00:11 - Reloading encoder...
+INFO - 02/18/20 11:22:55 - 0:00:11 - Reloading decoder...
+INFO - 02/18/20 11:22:55 - 0:00:11 - num_updates: 210000 
+INFO - 02/18/20 11:22:55 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/18/20 11:24:56 - 0:02:13 - 127.0.0.1 - - [18/Feb/2020 11:24:56] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 11:24:59 - 0:02:15 - 127.0.0.1 - - [18/Feb/2020 11:24:59] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:25:00 - 0:02:16 - 127.0.0.1 - - [18/Feb/2020 11:25:00] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:25:02 - 0:02:18 - 127.0.0.1 - - [18/Feb/2020 11:25:02] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:25:07 - 0:02:23 - 127.0.0.1 - - [18/Feb/2020 11:25:07] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:25:11 - 0:02:27 - 127.0.0.1 - - [18/Feb/2020 11:25:11] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:25:20 - 0:02:36 - 127.0.0.1 - - [18/Feb/2020 11:25:20] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:25:24 - 0:02:41 - 127.0.0.1 - - [18/Feb/2020 11:25:24] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:25:27 - 0:02:43 - 127.0.0.1 - - [18/Feb/2020 11:25:27] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:25:33 - 0:02:50 - 127.0.0.1 - - [18/Feb/2020 11:25:33] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:30:22 - 0:07:38 - 127.0.0.1 - - [18/Feb/2020 11:30:22] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/18/20 11:34:50 - 0:12:06 - 127.0.0.1 - - [18/Feb/2020 11:34:50] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 11:34:52 - 0:12:08 - 127.0.0.1 - - [18/Feb/2020 11:34:52] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:34:53 - 0:12:10 - 127.0.0.1 - - [18/Feb/2020 11:34:53] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:41:41 - 0:18:57 - 127.0.0.1 - - [18/Feb/2020 11:41:41] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 02/18/20 11:42:35 - 0:19:52 - 127.0.0.1 - - [18/Feb/2020 11:42:35] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 02/18/20 11:43:15 - 0:20:31 - 127.0.0.1 - - [18/Feb/2020 11:43:15] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 11:43:17 - 0:20:33 - 127.0.0.1 - - [18/Feb/2020 11:43:17] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 02/18/20 11:43:49 - 0:21:05 - 127.0.0.1 - - [18/Feb/2020 11:43:49] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 11:43:51 - 0:21:08 - 127.0.0.1 - - [18/Feb/2020 11:43:51] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:43:54 - 0:21:11 - 127.0.0.1 - - [18/Feb/2020 11:43:55] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 02/18/20 11:45:27 - 0:22:43 - 127.0.0.1 - - [18/Feb/2020 11:45:27] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 11:48:16 - 0:25:32 - 127.0.0.1 - - [18/Feb/2020 11:48:16] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 11:48:23 - 0:25:39 - 127.0.0.1 - - [18/Feb/2020 11:48:23] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 11:48:24 - 0:25:41 - 127.0.0.1 - - [18/Feb/2020 11:48:24] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/18/20 12:11:19 - 0:48:36 - 127.0.0.1 - - [18/Feb/2020 12:11:19] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 12:12:18 - 0:49:34 - 127.0.0.1 - - [18/Feb/2020 12:12:18] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 12:13:10 - 0:50:26 - 127.0.0.1 - - [18/Feb/2020 12:13:10] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 12:14:43 - 0:52:00 - 127.0.0.1 - - [18/Feb/2020 12:14:43] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 12:16:11 - 0:53:27 - 127.0.0.1 - - [18/Feb/2020 12:16:11] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 12:17:15 - 0:54:31 - 127.0.0.1 - - [18/Feb/2020 12:17:15] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 12:24:53 - 1:02:09 - 127.0.0.1 - - [18/Feb/2020 12:24:53] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 12:26:17 - 1:03:34 - 127.0.0.1 - - [18/Feb/2020 12:26:17] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/18/20 12:26:19 - 1:03:35 - 127.0.0.1 - - [18/Feb/2020 12:26:19] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 04:02:51 - 16:40:07 - 127.0.0.1 - - [19/Feb/2020 04:02:51] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 04:05:41 - 16:42:57 - 127.0.0.1 - - [19/Feb/2020 04:05:41] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/19/20 04:05:47 - 16:43:03 - 127.0.0.1 - - [19/Feb/2020 04:05:47] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 04:06:11 - 16:43:27 - 127.0.0.1 - - [19/Feb/2020 04:06:11] "POST /api/store_onesentence HTTP/1.0" 200 -
+INFO - 02/19/20 04:06:16 - 16:43:32 - 127.0.0.1 - - [19/Feb/2020 04:06:16] "POST /api/itranslate HTTP/1.0" 200 -
+DEBUG - 02/19/20 04:06:33 - 16:43:49 - Building prefix dict from the default dictionary ...
+DEBUG - 02/19/20 04:06:33 - 16:43:49 - Loading model from cache /tmp/jieba.cache
+DEBUG - 02/19/20 04:06:34 - 16:43:50 - Loading model cost 1.233 seconds.
+DEBUG - 02/19/20 04:06:34 - 16:43:50 - Prefix dict has been built successfully.
+INFO - 02/19/20 04:06:34 - 16:43:51 - 127.0.0.1 - - [19/Feb/2020 04:06:34] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 04:06:37 - 16:43:53 - 127.0.0.1 - - [19/Feb/2020 04:06:37] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 04:06:58 - 16:44:14 - 127.0.0.1 - - [19/Feb/2020 04:06:58] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 04:07:02 - 16:44:19 - 127.0.0.1 - - [19/Feb/2020 04:07:02] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 04:07:03 - 16:44:19 - 127.0.0.1 - - [19/Feb/2020 04:07:03] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 04:07:05 - 16:44:22 - 127.0.0.1 - - [19/Feb/2020 04:07:05] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 04:14:59 - 16:52:15 - 127.0.0.1 - - [19/Feb/2020 04:14:59] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/19/20 04:15:07 - 16:52:23 - 127.0.0.1 - - [19/Feb/2020 04:15:07] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 04:15:10 - 16:52:26 - 127.0.0.1 - - [19/Feb/2020 04:15:10] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 04:15:16 - 16:52:32 - 127.0.0.1 - - [19/Feb/2020 04:15:16] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 04:15:20 - 16:52:36 - 127.0.0.1 - - [19/Feb/2020 04:15:20] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 04:22:37 - 16:59:53 - 127.0.0.1 - - [19/Feb/2020 04:22:37] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/19/20 04:22:39 - 16:59:55 - 127.0.0.1 - - [19/Feb/2020 04:22:39] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 04:22:40 - 16:59:56 - 127.0.0.1 - - [19/Feb/2020 04:22:40] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 11:49:13 - 1 day, 0:26:29 - 127.0.0.1 - - [19/Feb/2020 11:49:13] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 13:25:58 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/19/20 13:25:58 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/19/20 13:25:58 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/19/20 13:26:01 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/19/20 13:26:03 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/19/20 13:26:08 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/19/20 13:26:09 - 0:00:11 - Reloading encoder...
+INFO - 02/19/20 13:26:09 - 0:00:11 - Reloading decoder...
+INFO - 02/19/20 13:26:09 - 0:00:11 - num_updates: 210000 
+INFO - 02/19/20 13:26:09 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/19/20 13:26:22 - 0:00:24 - 127.0.0.1 - - [19/Feb/2020 13:26:22] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 13:27:26 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/19/20 13:27:26 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/19/20 13:27:26 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/19/20 13:27:28 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/19/20 13:27:30 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/19/20 13:27:36 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/19/20 13:27:37 - 0:00:11 - Reloading encoder...
+INFO - 02/19/20 13:27:37 - 0:00:11 - Reloading decoder...
+INFO - 02/19/20 13:27:37 - 0:00:11 - num_updates: 210000 
+INFO - 02/19/20 13:27:37 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/19/20 13:27:53 - 0:00:27 - 127.0.0.1 - - [19/Feb/2020 13:27:53] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 13:29:05 - 0:01:39 - 127.0.0.1 - - [19/Feb/2020 13:29:05] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 13:33:34 - 0:00:00 - Read 30512 words from the vocabulary file.
+INFO - 02/19/20 13:33:34 - 0:00:00 - Read 43564 words from the vocabulary file.
+INFO - 02/19/20 13:33:34 - 0:00:00 - ============ Building transformer attention model - Encoder ...
+
+INFO - 02/19/20 13:33:37 - 0:00:03 - ============ Building transformer attention model - Decoder ...
+INFO - 02/19/20 13:33:39 - 0:00:05 - Sharing input embeddings and projection matrix in the decoder
+
+INFO - 02/19/20 13:33:44 - 0:00:10 - Reloading model from all_models/pe2zh_model_epoch4_update210000.pt ...
+INFO - 02/19/20 13:33:45 - 0:00:11 - Reloading encoder...
+INFO - 02/19/20 13:33:45 - 0:00:11 - Reloading decoder...
+INFO - 02/19/20 13:33:45 - 0:00:11 - num_updates: 210000 
+INFO - 02/19/20 13:33:45 - 0:00:11 -  * Running on http://127.0.0.1:6431/ (Press CTRL+C to quit)
+INFO - 02/19/20 13:35:52 - 0:02:18 - 127.0.0.1 - - [19/Feb/2020 13:35:52] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 13:36:48 - 0:03:14 - 127.0.0.1 - - [19/Feb/2020 13:36:48] "POST /api/split HTTP/1.0" 200 -
+INFO - 02/19/20 13:36:51 - 0:03:17 - 127.0.0.1 - - [19/Feb/2020 13:36:51] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 13:36:52 - 0:03:19 - 127.0.0.1 - - [19/Feb/2020 13:36:52] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 13:37:22 - 0:03:49 - 127.0.0.1 - - [19/Feb/2020 13:37:22] "POST /api/update_table HTTP/1.0" 200 -
+INFO - 02/19/20 13:37:37 - 0:04:03 - 127.0.0.1 - - [19/Feb/2020 13:37:37] "POST /api/itranslate HTTP/1.0" 200 -
+INFO - 02/19/20 13:37:39 - 0:04:05 - 127.0.0.1 - - [19/Feb/2020 13:37:39] "POST /api/itranslate HTTP/1.0" 200 -
